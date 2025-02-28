@@ -33,4 +33,15 @@ public class Ram
     public void setFormato(String formato){
         this.formato = formato;
     }
+    //getter memoria
+    public int getMemoria(){
+        return memoria;
+    }
+    
+    //getter formato
+    public String getFormato (){
+        return formato;
+    }
 }
+
+
