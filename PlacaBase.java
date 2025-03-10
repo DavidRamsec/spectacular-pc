@@ -30,4 +30,16 @@ public class PlacaBase
     public void setMemoria(boolean compatible){
         compatibleDDR = compatible;
     }
+    
+    public String getFormato (){
+        return formato; 
+    }
+    
+    public boolean getCompatible(){
+        return compatibleDDR;
+    }
+    
+    public Ram getMemoria(){
+        return memoria;
+    }
 }
