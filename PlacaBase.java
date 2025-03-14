@@ -42,4 +42,9 @@ public class PlacaBase
     public Ram getMemoria(){
         return memoria;
     }
+    
+    public String getAtributos(){
+        String resultado = "Atributos de la placa base: formato: " + formato + " compatibilidad con DDR6: " + compatibleDDR +  " " + memoria.getAtributos();
+        return resultado;
+    }
 }

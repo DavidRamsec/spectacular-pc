@@ -42,6 +42,11 @@ public class Ram
     public String getFormato (){
         return formato;
     }
+    
+    public String getAtributos(){
+        String resultado = "Atributos de la memoria: memoria: " + memoria + " formato: " + formato;
+        return resultado;
+    }
 }
 
 
