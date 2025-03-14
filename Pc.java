@@ -33,4 +33,25 @@ public class Pc
         // put your code here
         
     }
+    public PlacaBase getplacaBase(){
+        return placaBase;
+    }
+    public int getTamaño(){
+        return tamaño;
+    }
+    public String getMarca(){
+        return marca; 
+    }
+    public void setTamaño(int tamaño){
+        this.tamaño = tamaño;
+    }
+    public void setMarca(String marca){
+        this.marca = marca; 
+    }
+    public void setPlacaBase(PlacaBase placaBase){
+        this.placaBase = placaBase;
+    }
+    public void mostrarDetallesPC(){
+        System.out.println("El tamaño del pc es de "+getTamaño()+" y es de la siguinte marca "+getMarca());
+    }
 }
