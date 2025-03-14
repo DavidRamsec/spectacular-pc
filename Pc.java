@@ -8,15 +8,18 @@
 public class Pc
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private PlacaBase placaBase;
+    private int tamaño;
+    private String marca;
 
     /**
      * Constructor for objects of class Pc
      */
     public Pc()
     {
-        // initialise instance variables
-        x = 0;
+        placaBase = new PlacaBase();
+        marca = "acer";
+        tamaño = 50;
     }
 
     /**
@@ -25,9 +28,9 @@ public class Pc
      * @param  y   a sample parameter for a method
      * @return     the sum of x and y 
      */
-    public int sampleMethod(int y)
+    public void sampleMethod(int y)
     {
         // put your code here
-        return x + y;
+        
     }
 }
